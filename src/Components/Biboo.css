@@ -1,0 +1,972 @@
+@media screen and (min-device-width: 280px) {
+  .container {
+    background: rgb(18, 52, 142);
+    background: linear-gradient(245deg, rgb(18, 52, 142) 0%, rgb(41, 24, 171) 100%);
+    padding: 1em;
+    padding-top: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .container nav {
+    position: fixed;
+    top: 0;
+    background: blue;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0.1em 0.2em 0.2em blue;
+  }
+  .container nav h2 {
+    padding: 0.5em;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .container .biboo-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5em;
+    width: 100%;
+  }
+  .container .biboo-input .input-bar {
+    width: 100%;
+    padding-left: 0.2em;
+    background-color: lightgray;
+    height: 3em;
+    border: none;
+    border-radius: 0.4em;
+    outline: none;
+  }
+  .container .biboo-input .btn {
+    background-color: skyblue;
+    padding: 1em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 500;
+    box-shadow: 0.2em 0.3em 0.4em blue;
+  }
+  .container .d-line {
+    border: 0.1em lightslategray dashed;
+    width: 100%;
+  }
+  .container .biboo-output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5em;
+    width: 100%;
+  }
+  .container .biboo-output .verse-img1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    height: 13em;
+    width: 80%;
+    outline: none;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(at 0% 50%, rgb(2, 0, 36) 28%, rgb(54, 60, 110) 100%, rgb(67, 124, 181) 100%, rgb(0, 212, 255) 100%);
+  }
+  .container .biboo-output .verse-img1 #verse-font1 {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .container .biboo-output .verse-img1 #verse-font2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img1 #verse-font3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .container .biboo-output .verse-img1 #verse-font4 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img1 #verse-font5 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img1 #verse-font6 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .container .biboo-output .verse-img1 #verse-font7 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img1 #verse-font8 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container .biboo-output .verse-img1 #verse-font9 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .container .biboo-output .verse-img1 #verse-font10 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container .biboo-output .verse-img1 p {
+    color: white;
+    font-weight: 600;
+  }
+  .container .biboo-output .verse-img1 h3 {
+    color: white;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+  }
+  .container .biboo-output .verse-img2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    height: 13em;
+    width: 80%;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(253, 187, 45) 100%);
+  }
+  .container .biboo-output .verse-img2 #verse-font1 {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .container .biboo-output .verse-img2 #verse-font2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img2 #verse-font3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .container .biboo-output .verse-img2 #verse-font4 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img2 #verse-font5 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img2 #verse-font6 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .container .biboo-output .verse-img2 #verse-font7 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img2 #verse-font8 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container .biboo-output .verse-img2 #verse-font9 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .container .biboo-output .verse-img2 #verse-font10 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container .biboo-output .verse-img2 p {
+    color: black;
+    font-weight: 600;
+  }
+  .container .biboo-output .verse-img2 h3 {
+    color: black;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+  }
+  .container .biboo-output .verse-img3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    height: 13em;
+    width: 80%;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(at 20% 50%, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
+  }
+  .container .biboo-output .verse-img3 #verse-font1 {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .container .biboo-output .verse-img3 #verse-font2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img3 #verse-font3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .container .biboo-output .verse-img3 #verse-font4 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img3 #verse-font5 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img3 #verse-font6 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .container .biboo-output .verse-img3 #verse-font7 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img3 #verse-font8 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container .biboo-output .verse-img3 #verse-font9 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .container .biboo-output .verse-img3 #verse-font10 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container .biboo-output .verse-img3 p {
+    color: black;
+    font-weight: 600;
+  }
+  .container .biboo-output .verse-img3 h3 {
+    color: black;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+  }
+  .container .biboo-output .verse-img4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    height: 13em;
+    width: 80%;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+  }
+  .container .biboo-output .verse-img4 #verse-font1 {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .container .biboo-output .verse-img4 #verse-font2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img4 #verse-font3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .container .biboo-output .verse-img4 #verse-font4 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img4 #verse-font5 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img4 #verse-font6 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .container .biboo-output .verse-img4 #verse-font7 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img4 #verse-font8 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container .biboo-output .verse-img4 #verse-font9 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .container .biboo-output .verse-img4 #verse-font10 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container .biboo-output .verse-img4 p {
+    color: black;
+    font-weight: 600;
+  }
+  .container .biboo-output .verse-img4 h3 {
+    color: black;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+  }
+  .container .biboo-output .verse-img5 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    height: 13em;
+    width: 80%;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+  }
+  .container .biboo-output .verse-img5 #verse-font1 {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .container .biboo-output .verse-img5 #verse-font2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img5 #verse-font3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .container .biboo-output .verse-img5 #verse-font4 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img5 #verse-font5 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img5 #verse-font6 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .container .biboo-output .verse-img5 #verse-font7 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img5 #verse-font8 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container .biboo-output .verse-img5 #verse-font9 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .container .biboo-output .verse-img5 #verse-font10 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container .biboo-output .verse-img5 p {
+    color: black;
+    font-weight: 600;
+  }
+  .container .biboo-output .verse-img5 h3 {
+    color: black;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+  }
+  .container .biboo-output .verse-img6 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    height: 13em;
+    width: 80%;
+    background: rgb(145, 195, 34);
+    background: radial-gradient(circle, rgb(145, 195, 34) 0%, rgb(253, 58, 45) 100%);
+  }
+  .container .biboo-output .verse-img6 #verse-font1 {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .container .biboo-output .verse-img6 #verse-font2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img6 #verse-font3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .container .biboo-output .verse-img6 #verse-font4 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img6 #verse-font5 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img6 #verse-font6 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .container .biboo-output .verse-img6 #verse-font7 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img6 #verse-font8 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container .biboo-output .verse-img6 #verse-font9 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .container .biboo-output .verse-img6 #verse-font10 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container .biboo-output .verse-img6 p {
+    color: black;
+    font-weight: 600;
+  }
+  .container .biboo-output .verse-img6 h3 {
+    color: black;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+  }
+  .container .biboo-output .verse-img7 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    height: 13em;
+    width: 80%;
+    background: rgb(36, 142, 18);
+    background: linear-gradient(349deg, rgb(36, 142, 18) 0%, rgb(245, 253, 45) 100%);
+  }
+  .container .biboo-output .verse-img7 #verse-font1 {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .container .biboo-output .verse-img7 #verse-font2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img7 #verse-font3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .container .biboo-output .verse-img7 #verse-font4 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img7 #verse-font5 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img7 #verse-font6 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .container .biboo-output .verse-img7 #verse-font7 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img7 #verse-font8 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container .biboo-output .verse-img7 #verse-font9 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .container .biboo-output .verse-img7 #verse-font10 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container .biboo-output .verse-img7 p {
+    color: black;
+    font-weight: 600;
+  }
+  .container .biboo-output .verse-img7 h3 {
+    color: black;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+  }
+  .container .biboo-output .verse-img8 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    height: 13em;
+    width: 80%;
+    background: rgb(26, 21, 126);
+    background: linear-gradient(243deg, rgb(26, 21, 126) 17%, rgb(90, 108, 45) 33%, rgb(126, 13, 17) 61%, rgb(60, 110, 54) 90%);
+  }
+  .container .biboo-output .verse-img8 #verse-font1 {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .container .biboo-output .verse-img8 #verse-font2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img8 #verse-font3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .container .biboo-output .verse-img8 #verse-font4 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img8 #verse-font5 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img8 #verse-font6 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .container .biboo-output .verse-img8 #verse-font7 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img8 #verse-font8 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container .biboo-output .verse-img8 #verse-font9 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .container .biboo-output .verse-img8 #verse-font10 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container .biboo-output .verse-img8 p {
+    color: white;
+    font-weight: 600;
+  }
+  .container .biboo-output .verse-img8 h3 {
+    color: white;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+  }
+  .container .biboo-output .verse-img9 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    height: 13em;
+    width: 80%;
+    background: rgb(63, 251, 211);
+    background: radial-gradient(circle, rgb(63, 251, 211) 0%, rgb(70, 181, 252) 100%);
+  }
+  .container .biboo-output .verse-img9 #verse-font1 {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .container .biboo-output .verse-img9 #verse-font2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img9 #verse-font3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .container .biboo-output .verse-img9 #verse-font4 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img9 #verse-font5 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container .biboo-output .verse-img9 #verse-font6 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .container .biboo-output .verse-img9 #verse-font7 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  .container .biboo-output .verse-img9 #verse-font8 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container .biboo-output .verse-img9 #verse-font9 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .container .biboo-output .verse-img9 #verse-font10 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container .biboo-output .verse-img9 p {
+    color: black;
+    font-weight: 600;
+  }
+  .container .biboo-output .verse-img9 h3 {
+    color: black;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+  }
+  .container .biboo-output .d-btn {
+    background-color: skyblue;
+    padding: 1em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 500;
+    box-shadow: 0.2em 0.3em 0.4em blue;
+  }
+  .container .container2 {
+    background: rgb(18, 52, 142);
+    background: linear-gradient(245deg, rgb(18, 52, 142) 0%, rgb(41, 24, 171) 100%);
+    padding-top: 4.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    overflow: scroll;
+    font-family: "Saira Extra Condensed", sans-serif;
+  }
+  .container .container2 .edit-intro {
+    margin-top: 22em;
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+    width: 100%;
+    color: darkgray;
+    margin-bottom: 1em;
+  }
+  .container .container2 .color-change p {
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-size: x-large;
+    color: darkgray;
+    margin-bottom: 1em;
+  }
+  .container .container2 .color-change .c-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0.5em;
+    margin-bottom: 2em;
+  }
+  .container .container2 .color-change .c-box div {
+    height: 4em;
+    width: 100%;
+    border-radius: 0.2em;
+  }
+  .container .container2 .color-change .c-box .c-box1 {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(at 0% 50%, rgb(2, 0, 36) 28%, rgb(54, 60, 110) 100%, rgb(67, 124, 181) 100%, rgb(0, 212, 255) 100%);
+  }
+  .container .container2 .color-change .c-box .c-box2 {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(253, 187, 45) 100%);
+  }
+  .container .container2 .color-change .c-box .c-box3 {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(at 20% 50%, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
+  }
+  .container .container2 .color-change .c-box .c-box4 {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+  }
+  .container .container2 .color-change .c-box .c-box5 {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+  }
+  .container .container2 .color-change .c-box .c-box6 {
+    background: rgb(145, 195, 34);
+    background: radial-gradient(circle, rgb(145, 195, 34) 0%, rgb(253, 58, 45) 100%);
+  }
+  .container .container2 .color-change .c-box .c-box7 {
+    background: rgb(36, 142, 18);
+    background: linear-gradient(349deg, rgb(36, 142, 18) 0%, rgb(245, 253, 45) 100%);
+  }
+  .container .container2 .color-change .c-box .c-box8 {
+    background: rgb(26, 21, 126);
+    background: linear-gradient(243deg, rgb(26, 21, 126) 17%, rgb(90, 108, 45) 33%, rgb(126, 13, 17) 61%, rgb(60, 110, 54) 90%);
+  }
+  .container .container2 .color-change .c-box .c-box9 {
+    background: rgb(63, 251, 211);
+    background: radial-gradient(circle, rgb(63, 251, 211) 0%, rgb(70, 181, 252) 100%);
+  }
+  .container .container2 .color-change .color-input {
+    margin-bottom: 2em;
+  }
+  .container .container2 .color-change .color-input label {
+    color: darkgray;
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-size: x-large;
+  }
+  .container .container2 .color-change .color-input #hex {
+    width: 100%;
+    height: 3em;
+    outline: none;
+    font-size: large;
+    background: whitesmoke;
+    border: none;
+    border-radius: 0.3em;
+  }
+  .container .container2 .text-change {
+    margin-bottom: 3em;
+  }
+  .container .container2 .text-change .font-change {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3em;
+  }
+  .container .container2 .text-change .font-change label {
+    width: 100%;
+    color: darkgray;
+    font-size: x-large;
+  }
+  .container .container2 .text-change .font-change #fonts {
+    width: 100%;
+    height: 3em;
+    outline: none;
+    font-size: large;
+    background: whitesmoke;
+    border: none;
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+  }
+  .container .container2 .text-change .font-change button {
+    background-color: skyblue;
+    padding: 1em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 500;
+    box-shadow: 0.2em 0.3em 0.4em blue;
+  }
+  .container .container2 .text-change .channg-text-color label {
+    font-size: x-large;
+    color: darkgray;
+  }
+  .container .container2 .text-change .channg-text-color #text-color {
+    width: 100%;
+    height: 3em;
+    outline: none;
+    font-size: large;
+    background: whitesmoke;
+    border: none;
+    border-radius: 0.3em;
+  }
+}
+.font-italic {
+  font-style: italic;
+}
+
+.font-normal {
+  font-style: normal;
+}
+
+@media screen and (min-device-width: 375px) {
+  .container .container2 {
+    padding-top: 2.5em;
+  }
+  .container .container2 .edit-intro {
+    margin-top: 20em;
+  }
+}
+@media screen and (min-device-width: 400px) {
+  .container .container2 {
+    padding-top: 2em;
+  }
+  .container .container2 .edit-intro {
+    margin-top: 18em;
+  }
+}
+@media screen and (min-device-width: 540px) {
+  .container {
+    padding: 5em;
+    gap: 2em;
+  }
+  .container .container2 .edit-intro {
+    margin-top: 20em;
+  }
+}
+@media screen and (min-device-width: 760px) {
+  .container {
+    padding: 4em;
+    gap: 3em;
+    padding-top: 6em;
+  }
+  .container nav h2 {
+    font-size: xx-large;
+  }
+  .container .biboo-input .input-bar {
+    width: 80%;
+    font-size: larger;
+  }
+  .container .biboo-input .btn {
+    font-size: larger;
+  }
+  .container .d-line {
+    border: 0.2em lightslategray dashed;
+  }
+  .container .biboo-output {
+    width: 90%;
+  }
+  .container .biboo-output .d-btn {
+    font-size: larger;
+  }
+  .container .container2 .edit-intro {
+    margin-top: 22em;
+    font-size: xx-large;
+  }
+  .container .container2 .color-change p {
+    font-size: xx-large;
+  }
+  .container .container2 .color-change .c-box {
+    gap: 1em;
+    margin-bottom: 3em;
+  }
+  .container .container2 .color-change .c-box div {
+    height: 7em;
+  }
+  .container .container2 .color-change .color-input {
+    margin-bottom: 3em;
+  }
+  .container .container2 .color-change .color-input label {
+    font-size: xx-large;
+  }
+  .container .container2 .color-change .color-input #hex {
+    font-size: larger;
+  }
+  .container .container2 .text-change {
+    width: 100%;
+  }
+  .container .container2 .text-change .font-change {
+    align-items: left;
+    width: 100%;
+  }
+  .container .container2 .text-change .font-change label {
+    width: 100%;
+    font-size: xx-large;
+  }
+  .container .container2 .text-change .font-change #fonts {
+    font-size: x-large;
+  }
+  .container .container2 .text-change .font-change button {
+    font-size: larger;
+  }
+  .container .container2 .text-change .channg-text-color label {
+    font-size: xx-large;
+  }
+  .container .container2 .text-change .channg-text-color #text-color {
+    font-size: larger;
+  }
+}
+@media screen and (min-device-width: 1024px) {
+  .container {
+    padding: 7em;
+    padding-bottom: 4em;
+  }
+  .container .biboo-input .input-bar {
+    width: 50%;
+    font-size: small;
+  }
+  .container .biboo-input .btn {
+    font-size: small;
+    transition: ease 0.5s;
+    cursor: pointer;
+  }
+  .container .biboo-input .btn:hover {
+    background: blue;
+    color: lightblue;
+  }
+  .container .biboo-output {
+    width: 55%;
+    font-size: larger;
+    height: 17em;
+  }
+  .container .biboo-output .d-btn {
+    font-size: small;
+    transition: ease 0.5s;
+    cursor: pointer;
+  }
+  .container .biboo-output .d-btn:hover {
+    background: blue;
+    color: lightblue;
+  }
+  .container .container2 {
+    height: 30vh;
+    width: 50%;
+  }
+  .container .container2 .edit-intro {
+    margin-top: 12em;
+    font-size: x-large;
+    margin-bottom: 0.5em;
+  }
+  .container .container2 .color-change p {
+    font-size: larger;
+    margin-bottom: 0.5em;
+  }
+  .container .container2 .color-change .c-box {
+    grid-template-columns: auto auto auto auto auto;
+    margin-bottom: 1em;
+  }
+  .container .container2 .color-change .c-box div {
+    height: 2em;
+  }
+  .container .container2 .color-change .color-input {
+    margin-bottom: 1em;
+  }
+  .container .container2 .color-change .color-input label {
+    font-size: larger;
+  }
+  .container .container2 .color-change .color-input #hex {
+    width: 70%;
+    font-size: small;
+  }
+  .container .container2 .text-change {
+    margin-bottom: 1.5em;
+  }
+  .container .container2 .text-change .font-change {
+    margin-bottom: 0.5em;
+    align-items: start;
+    padding-left: 0.5em;
+  }
+  .container .container2 .text-change .font-change label {
+    font-size: larger;
+  }
+  .container .container2 .text-change .font-change #fonts {
+    width: 70%;
+    font-size: small;
+  }
+  .container .container2 .text-change .font-change button {
+    font-size: small;
+    transition: ease 0.5s;
+    cursor: pointer;
+  }
+  .container .container2 .text-change .font-change button:hover {
+    background: blue;
+    color: lightblue;
+  }
+  .container .container2 .text-change .channg-text-color {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.5em;
+  }
+  .container .container2 .text-change .channg-text-color label {
+    font-size: larger;
+  }
+  .container .container2 .text-change .channg-text-color #text-color {
+    width: 70%;
+    font-size: small;
+  }
+}
+@media screen and (min-device-width: 1280px) {
+  .biboo-input {
+    grid-area: input;
+  }
+  .d-line {
+    grid-area: d-line;
+  }
+  .biboo-output {
+    grid-area: output;
+  }
+  .container2 {
+    grid-area: container2;
+  }
+  .container {
+    display: grid;
+    grid-template-areas: "input input" "d-line d-line" "output container2";
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: unset;
+  }
+  .container nav {
+    left: 0;
+  }
+  .container .biboo-input .btn {
+    font-size: medium;
+  }
+  .container .d-line {
+    border: unset;
+    border-bottom: 0.2em lightgray dashed;
+  }
+  .container .biboo-output {
+    width: 25em;
+    font-size: larger;
+  }
+  .container .biboo-output .d-btn {
+    font-size: medium;
+  }
+  .container .container2 {
+    margin-top: -2em;
+    width: 30em;
+    height: 40vh;
+    align-items: start;
+  }
+  .container .container2 .edit-intro {
+    padding-left: 0.3em;
+    font-size: xx-large;
+    margin-top: 12em;
+  }
+  .container .container2 .color-change {
+    width: 90%;
+    padding-left: 0.5em;
+  }
+  .container .container2 .color-change p {
+    font-size: x-large;
+  }
+  .container .container2 .color-change .c-box div {
+    height: 4em;
+    width: 4em;
+  }
+  .container .container2 .color-change .color-input label {
+    font-size: x-large;
+  }
+  .container .container2 .color-change .color-input #hex {
+    font-size: medium;
+    width: 78%;
+  }
+  .container .container2 .text-change .font-change label {
+    font-size: x-large;
+  }
+  .container .container2 .text-change .font-change #fonts {
+    font-size: medium;
+  }
+  .container .container2 .text-change .font-change button {
+    font-size: large;
+  }
+  .container .container2 .text-change .channg-text-color label {
+    font-size: x-large;
+  }
+  .container .container2 .text-change .channg-text-color #text-color {
+    font-size: medium;
+  }
+}/*# sourceMappingURL=Biboo.css.map */

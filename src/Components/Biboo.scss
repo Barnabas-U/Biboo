@@ -1,0 +1,1345 @@
+@media screen and (min-device-width: 280px) {
+  .container {
+    background: rgb(18, 52, 142);
+    background: linear-gradient(
+      245deg,
+      rgba(18, 52, 142, 1) 0%,
+      rgba(41, 24, 171, 1) 100%
+    );
+    padding: 1em;
+    padding-top: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+
+    nav {
+      position: fixed;
+      top: 0;
+      background: blue;
+      width: 100%;
+      z-index: 100;
+      box-shadow: 0.1em 0.2em 0.2em blue;
+
+      h2 {
+        padding: 0.5em;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    }
+
+    .biboo-input {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5em;
+      width: 100%;
+
+      .input-bar {
+        width: 100%;
+        padding-left: 0.2em;
+        background-color: lightgray;
+        height: 3em;
+        border: none;
+        border-radius: 0.4em;
+        outline: none;
+      }
+
+      .btn {
+        background-color: skyblue;
+        padding: 1em;
+        border-radius: 1em;
+        border: none;
+        outline: none;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 500;
+        box-shadow: 0.2em 0.3em 0.4em blue;
+      }
+    }
+
+    .d-line {
+      border: 0.1em lightslategray dashed;
+      width: 100%;
+    }
+
+    .biboo-output {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5em;
+      width: 100%;
+
+      .verse-img1 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        height: 13em;
+        width: 80%;
+        outline: none;
+        background: rgb(2, 0, 36);
+        background: radial-gradient(
+          at 0% 50%,
+          rgba(2, 0, 36, 1) 28%,
+          rgba(54, 60, 110, 1) 100%,
+          rgba(67, 124, 181, 1) 100%,
+          rgba(0, 212, 255, 1) 100%
+        );
+
+        #verse-font1 {
+          font-family: "Courier New", Courier, monospace;
+        }
+
+        #verse-font2 {
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
+        }
+
+        #verse-font3 {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+
+        #verse-font4 {
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font5 {
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font6 {
+          font-family: "Times New Roman", Times, serif;
+        }
+
+        #verse-font7 {
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        }
+
+        #verse-font8 {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #verse-font9 {
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        }
+
+        #verse-font10 {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        p {
+          color: white;
+          font-weight: 600;
+        }
+
+        h3 {
+          color: white;
+          position: absolute;
+          bottom: 1em;
+          right: 1em;
+        }
+      }
+
+      .verse-img2 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        height: 13em;
+        width: 80%;
+        background: rgb(34, 193, 195);
+        background: linear-gradient(
+          0deg,
+          rgba(34, 193, 195, 1) 0%,
+          rgba(253, 187, 45, 1) 100%
+        );
+
+        #verse-font1 {
+          font-family: "Courier New", Courier, monospace;
+        }
+
+        #verse-font2 {
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
+        }
+
+        #verse-font3 {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+
+        #verse-font4 {
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font5 {
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font6 {
+          font-family: "Times New Roman", Times, serif;
+        }
+
+        #verse-font7 {
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        }
+
+        #verse-font8 {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #verse-font9 {
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        }
+
+        #verse-font10 {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        p {
+          color: black;
+          font-weight: 600;
+        }
+
+        h3 {
+          color: black;
+          position: absolute;
+          bottom: 1em;
+          right: 1em;
+        }
+      }
+
+      .verse-img3 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        height: 13em;
+        width: 80%;
+        background: rgb(63, 94, 251);
+        background: radial-gradient(
+          at 20% 50%,
+          rgba(63, 94, 251, 1) 0%,
+          rgba(252, 70, 107, 1) 100%
+        );
+
+        #verse-font1 {
+          font-family: "Courier New", Courier, monospace;
+        }
+
+        #verse-font2 {
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
+        }
+
+        #verse-font3 {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+
+        #verse-font4 {
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font5 {
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font6 {
+          font-family: "Times New Roman", Times, serif;
+        }
+
+        #verse-font7 {
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        }
+
+        #verse-font8 {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #verse-font9 {
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        }
+
+        #verse-font10 {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        p {
+          color: black;
+          font-weight: 600;
+        }
+
+        h3 {
+          color: black;
+          position: absolute;
+          bottom: 1em;
+          right: 1em;
+        }
+      }
+
+      .verse-img4 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        height: 13em;
+        width: 80%;
+        background: rgb(131, 58, 180);
+        background: linear-gradient(
+          90deg,
+          rgba(131, 58, 180, 1) 0%,
+          rgba(253, 29, 29, 1) 50%,
+          rgba(252, 176, 69, 1) 100%
+        );
+
+        #verse-font1 {
+          font-family: "Courier New", Courier, monospace;
+        }
+
+        #verse-font2 {
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
+        }
+
+        #verse-font3 {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+
+        #verse-font4 {
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font5 {
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font6 {
+          font-family: "Times New Roman", Times, serif;
+        }
+
+        #verse-font7 {
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        }
+
+        #verse-font8 {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #verse-font9 {
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        }
+
+        #verse-font10 {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        p {
+          color: black;
+          font-weight: 600;
+        }
+
+        h3 {
+          color: black;
+          position: absolute;
+          bottom: 1em;
+          right: 1em;
+        }
+      }
+
+      .verse-img5 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        height: 13em;
+        width: 80%;
+        background: rgb(238, 174, 202);
+        background: radial-gradient(
+          circle,
+          rgba(238, 174, 202, 1) 0%,
+          rgba(148, 187, 233, 1) 100%
+        );
+
+        #verse-font1 {
+          font-family: "Courier New", Courier, monospace;
+        }
+
+        #verse-font2 {
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
+        }
+
+        #verse-font3 {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+
+        #verse-font4 {
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font5 {
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font6 {
+          font-family: "Times New Roman", Times, serif;
+        }
+
+        #verse-font7 {
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        }
+
+        #verse-font8 {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #verse-font9 {
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        }
+
+        #verse-font10 {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        p {
+          color: black;
+          font-weight: 600;
+        }
+
+        h3 {
+          color: black;
+          position: absolute;
+          bottom: 1em;
+          right: 1em;
+        }
+      }
+
+      .verse-img6 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        height: 13em;
+        width: 80%;
+        background: rgb(145, 195, 34);
+        background: radial-gradient(
+          circle,
+          rgba(145, 195, 34, 1) 0%,
+          rgba(253, 58, 45, 1) 100%
+        );
+
+        #verse-font1 {
+          font-family: "Courier New", Courier, monospace;
+        }
+
+        #verse-font2 {
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
+        }
+
+        #verse-font3 {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+
+        #verse-font4 {
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font5 {
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font6 {
+          font-family: "Times New Roman", Times, serif;
+        }
+
+        #verse-font7 {
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        }
+
+        #verse-font8 {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #verse-font9 {
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        }
+
+        #verse-font10 {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        p {
+          color: black;
+          font-weight: 600;
+        }
+
+        h3 {
+          color: black;
+          position: absolute;
+          bottom: 1em;
+          right: 1em;
+        }
+      }
+
+      .verse-img7 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        height: 13em;
+        width: 80%;
+        background: rgb(36, 142, 18);
+        background: linear-gradient(
+          349deg,
+          rgba(36, 142, 18, 1) 0%,
+          rgba(245, 253, 45, 1) 100%
+        );
+
+        #verse-font1 {
+          font-family: "Courier New", Courier, monospace;
+        }
+
+        #verse-font2 {
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
+        }
+
+        #verse-font3 {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+
+        #verse-font4 {
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font5 {
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font6 {
+          font-family: "Times New Roman", Times, serif;
+        }
+
+        #verse-font7 {
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        }
+
+        #verse-font8 {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #verse-font9 {
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        }
+
+        #verse-font10 {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        p {
+          color: black;
+          font-weight: 600;
+        }
+
+        h3 {
+          color: black;
+          position: absolute;
+          bottom: 1em;
+          right: 1em;
+        }
+      }
+
+      .verse-img8 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        height: 13em;
+        width: 80%;
+        background: rgb(26, 21, 126);
+        background: linear-gradient(
+          243deg,
+          rgba(26, 21, 126, 1) 17%,
+          rgba(90, 108, 45, 1) 33%,
+          rgba(126, 13, 17, 1) 61%,
+          rgba(60, 110, 54, 1) 90%
+        );
+
+        #verse-font1 {
+          font-family: "Courier New", Courier, monospace;
+        }
+
+        #verse-font2 {
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
+        }
+
+        #verse-font3 {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+
+        #verse-font4 {
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font5 {
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font6 {
+          font-family: "Times New Roman", Times, serif;
+        }
+
+        #verse-font7 {
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        }
+
+        #verse-font8 {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #verse-font9 {
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        }
+
+        #verse-font10 {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        p {
+          color: white;
+          font-weight: 600;
+        }
+
+        h3 {
+          color: white;
+          position: absolute;
+          bottom: 1em;
+          right: 1em;
+        }
+      }
+
+      .verse-img9 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        height: 13em;
+        width: 80%;
+        background: rgb(63, 251, 211);
+        background: radial-gradient(
+          circle,
+          rgba(63, 251, 211, 1) 0%,
+          rgba(70, 181, 252, 1) 100%
+        );
+
+        #verse-font1 {
+          font-family: "Courier New", Courier, monospace;
+        }
+
+        #verse-font2 {
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
+        }
+
+        #verse-font3 {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+
+        #verse-font4 {
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font5 {
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #verse-font6 {
+          font-family: "Times New Roman", Times, serif;
+        }
+
+        #verse-font7 {
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        }
+
+        #verse-font8 {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #verse-font9 {
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        }
+
+        #verse-font10 {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        p {
+          color: black;
+          font-weight: 600;
+        }
+
+        h3 {
+          color: black;
+          position: absolute;
+          bottom: 1em;
+          right: 1em;
+        }
+      }
+
+      .d-btn {
+        background-color: skyblue;
+        padding: 1em;
+        border-radius: 1em;
+        border: none;
+        outline: none;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 500;
+        box-shadow: 0.2em 0.3em 0.4em blue;
+      }
+    }
+
+    .container2 {
+      background: rgb(18, 52, 142);
+      background: linear-gradient(
+        245deg,
+        rgba(18, 52, 142, 1) 0%,
+        rgba(41, 24, 171, 1) 100%
+      );
+      padding-top: 4.5em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 40vh;
+      overflow: scroll;
+      font-family: "Saira Extra Condensed", sans-serif;
+
+      .edit-intro {
+        margin-top: 22em;
+        font-family: "Saira Extra Condensed", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: x-large;
+        width: 100%;
+        color: darkgray;
+        margin-bottom: 1em;
+      }
+
+      .color-change {
+        p {
+          font-family: "Saira Extra Condensed", sans-serif;
+          font-size: x-large;
+          color: darkgray;
+          margin-bottom: 1em;
+        }
+
+        .c-box {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          gap: 0.5em;
+          margin-bottom: 2em;
+
+          div {
+            height: 4em;
+            width: 100%;
+            border-radius: 0.2em;
+          }
+
+          .c-box1 {
+            background: rgb(2, 0, 36);
+            background: radial-gradient(
+              at 0% 50%,
+              rgba(2, 0, 36, 1) 28%,
+              rgba(54, 60, 110, 1) 100%,
+              rgba(67, 124, 181, 1) 100%,
+              rgba(0, 212, 255, 1) 100%
+            );
+          }
+
+          .c-box2 {
+            background: rgb(34, 193, 195);
+            background: linear-gradient(
+              0deg,
+              rgba(34, 193, 195, 1) 0%,
+              rgba(253, 187, 45, 1) 100%
+            );
+          }
+
+          .c-box3 {
+            background: rgb(63, 94, 251);
+            background: radial-gradient(
+              at 20% 50%,
+              rgba(63, 94, 251, 1) 0%,
+              rgba(252, 70, 107, 1) 100%
+            );
+          }
+
+          .c-box4 {
+            background: rgb(131, 58, 180);
+            background: linear-gradient(
+              90deg,
+              rgba(131, 58, 180, 1) 0%,
+              rgba(253, 29, 29, 1) 50%,
+              rgba(252, 176, 69, 1) 100%
+            );
+          }
+
+          .c-box5 {
+            background: rgb(238, 174, 202);
+            background: radial-gradient(
+              circle,
+              rgba(238, 174, 202, 1) 0%,
+              rgba(148, 187, 233, 1) 100%
+            );
+          }
+
+          .c-box6 {
+            background: rgb(145, 195, 34);
+            background: radial-gradient(
+              circle,
+              rgba(145, 195, 34, 1) 0%,
+              rgba(253, 58, 45, 1) 100%
+            );
+          }
+
+          .c-box7 {
+            background: rgb(36, 142, 18);
+            background: linear-gradient(
+              349deg,
+              rgba(36, 142, 18, 1) 0%,
+              rgba(245, 253, 45, 1) 100%
+            );
+          }
+
+          .c-box8 {
+            background: rgb(26, 21, 126);
+            background: linear-gradient(
+              243deg,
+              rgba(26, 21, 126, 1) 17%,
+              rgba(90, 108, 45, 1) 33%,
+              rgba(126, 13, 17, 1) 61%,
+              rgba(60, 110, 54, 1) 90%
+            );
+          }
+
+          .c-box9 {
+            background: rgb(63, 251, 211);
+            background: radial-gradient(
+              circle,
+              rgba(63, 251, 211, 1) 0%,
+              rgba(70, 181, 252, 1) 100%
+            );
+          }
+        }
+
+        .color-input {
+          margin-bottom: 2em;
+          label {
+            color: darkgray;
+            font-family: "Saira Extra Condensed", sans-serif;
+            font-size: x-large;
+          }
+
+          #hex {
+            width: 100%;
+            height: 3em;
+            outline: none;
+            font-size: large;
+            background: whitesmoke;
+            border: none;
+            border-radius: 0.3em;
+          }
+        }
+      }
+      .text-change {
+        margin-bottom: 3em;
+
+        .font-change {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 3em;
+          label {
+            width: 100%;
+            color: darkgray;
+            font-size: x-large;
+          }
+
+          #fonts {
+            width: 100%;
+            height: 3em;
+            outline: none;
+            font-size: large;
+            background: whitesmoke;
+            border: none;
+            border-radius: 0.3em;
+            margin-bottom: 1em;
+          }
+
+          button {
+            background-color: skyblue;
+            padding: 1em;
+            border-radius: 1em;
+            border: none;
+            outline: none;
+            font-family: "Madimi One", sans-serif;
+            font-weight: 500;
+            box-shadow: 0.2em 0.3em 0.4em blue;
+          }
+        }
+
+        .channg-text-color {
+          label {
+            font-size: x-large;
+            color: darkgray;
+          }
+
+          #text-color {
+            width: 100%;
+            height: 3em;
+            outline: none;
+            font-size: large;
+            background: whitesmoke;
+            border: none;
+            border-radius: 0.3em;
+          }
+        }
+      }
+    }
+  }
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-normal {
+  font-style: normal;
+}
+
+@media screen and (min-device-width: 375px) {
+  .container {
+    .container2 {
+      padding-top: 2.5em;
+
+      .edit-intro {
+        margin-top: 20em;
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 400px) {
+  .container {
+    .container2 {
+      padding-top: 2em;
+
+      .edit-intro {
+        margin-top: 18em;
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 540px) {
+  .container {
+    padding: 5em;
+    gap: 2em;
+
+    .container2 {
+      .edit-intro {
+        margin-top: 20em;
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 760px) {
+  .container {
+    padding: 4em;
+    gap: 3em;
+    padding-top: 6em;
+
+    nav {
+      h2 {
+        font-size: xx-large;
+      }
+    }
+
+    .biboo-input {
+      .input-bar {
+        width: 80%;
+        font-size: larger;
+      }
+
+      .btn {
+        font-size: larger;
+      }
+    }
+
+    .d-line {
+      border: 0.2em lightslategray dashed;
+    }
+
+    .biboo-output {
+      width: 90%;
+
+      .d-btn {
+        font-size: larger;
+      }
+    }
+
+    .container2 {
+      .edit-intro {
+        margin-top: 22em;
+        font-size: xx-large;
+      }
+
+      .color-change {
+        p {
+          font-size: xx-large;
+        }
+
+        .c-box {
+          gap: 1em;
+          margin-bottom: 3em;
+
+          div {
+            height: 7em;
+          }
+        }
+
+        .color-input {
+          margin-bottom: 3em;
+          label {
+            font-size: xx-large;
+          }
+
+          #hex {
+            font-size: larger;
+          }
+        }
+      }
+
+      .text-change {
+        width: 100%;
+        .font-change {
+          align-items: left;
+          width: 100%;
+
+          label {
+            width: 100%;
+            font-size: xx-large;
+          }
+
+          #fonts {
+            font-size: x-large;
+          }
+
+          button {
+            font-size: larger;
+          }
+        }
+
+        .channg-text-color {
+          label {
+            font-size: xx-large;
+          }
+
+          #text-color {
+            font-size: larger;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 1024px) {
+  .container {
+    padding: 7em;
+    padding-bottom: 4em;
+
+    .biboo-input {
+      .input-bar {
+        width: 50%;
+        font-size: small;
+      }
+
+      .btn {
+        font-size: small;
+        transition: ease 0.5s;
+        cursor: pointer;
+
+        &:hover {
+          background: blue;
+          color: lightblue;
+        }
+      }
+    }
+
+    .biboo-output {
+      width: 55%;
+      font-size: larger;
+      height: 17em;
+
+      .d-btn {
+        font-size: small;
+        transition: ease 0.5s;
+        cursor: pointer;
+
+        &:hover {
+          background: blue;
+          color: lightblue;
+        }
+      }
+    }
+
+    .container2 {
+      height: 30vh;
+      width: 50%;
+
+      .edit-intro {
+        margin-top: 12em;
+        font-size: x-large;
+        margin-bottom: 0.5em;
+      }
+
+      .color-change {
+        p {
+          font-size: larger;
+          margin-bottom: 0.5em;
+        }
+
+        .c-box {
+          grid-template-columns: auto auto auto auto auto;
+          margin-bottom: 1em;
+
+          div {
+            height: 2em;
+          }
+        }
+
+        .color-input {
+          margin-bottom: 1em;
+          label {
+            font-size: larger;
+          }
+
+          #hex {
+            width: 70%;
+            font-size: small;
+          }
+        }
+      }
+
+      .text-change {
+        margin-bottom: 1.5em;
+
+        .font-change {
+          margin-bottom: 0.5em;
+          align-items: start;
+          padding-left: 0.5em;
+          label {
+            font-size: larger;
+          }
+
+          #fonts {
+            width: 70%;
+            font-size: small;
+          }
+
+          button {
+            font-size: small;
+            transition: ease 0.5s;
+            cursor: pointer;
+
+            &:hover {
+              background: blue;
+              color: lightblue;
+            }
+          }
+        }
+
+        .channg-text-color {
+          display: flex;
+          flex-direction: column;
+          padding-left: 0.5em;
+          label {
+            font-size: larger;
+          }
+
+          #text-color {
+            width: 70%;
+            font-size: small;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 1280px) {
+  .biboo-input {
+    grid-area: input;
+  }
+  .d-line {
+    grid-area: d-line;
+  }
+  .biboo-output {
+    grid-area: output;
+  }
+  .container2 {
+    grid-area: container2;
+  }
+
+  .container {
+    display: grid;
+    grid-template-areas: "input input" "d-line d-line" "output container2";
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: unset;
+
+    nav {
+      left: 0;
+    }
+
+    .biboo-input {
+      .btn {
+        font-size: medium;
+      }
+    }
+
+    .d-line {
+      border: unset;
+      border-bottom: 0.2em lightgray dashed;
+    }
+
+    .biboo-output {
+      width: 25em;
+      font-size: larger;
+
+      .d-btn {
+        font-size: medium;
+      }
+    }
+
+    .container2 {
+      margin-top: -2em;
+      width: 30em;
+      height: 40vh;
+      align-items: start;
+
+      .edit-intro {
+        padding-left: 0.3em;
+        font-size: xx-large;
+        margin-top: 12em;
+      }
+
+      .color-change {
+        width: 90%;
+        padding-left: 0.5em;
+        p {
+          font-size: x-large;
+        }
+
+        .c-box {
+          div {
+            height: 4em;
+            width: 4em;
+          }
+        }
+
+        .color-input {
+          label {
+            font-size: x-large;
+          }
+
+          #hex {
+            font-size: medium;
+            width: 78%;
+          }
+        }
+      }
+
+      .text-change {
+        .font-change {
+          label {
+            font-size: x-large;
+          }
+
+          #fonts {
+            font-size: medium;
+          }
+
+          button {
+            font-size: large;
+          }
+        }
+
+        .channg-text-color {
+          label {
+            font-size: x-large;
+          }
+
+          #text-color {
+            font-size: medium;
+          }
+        }
+      }
+    }
+  }
+}
